@@ -1,0 +1,1 @@
+java -classpath "AR-DESKTOP.jar;C:\Program Files\JMF2.1.1e\lib\sound.jar;C:\Program Files\JMF2.1.1e\lib\jmf.jar;C:\Program Files\Java\Java3D\1.5.1\lib\ext\j3dcore.jar;C:\Program Files\Java\Java3D\1.5.1\lib\ext\j3dutils.jar;C:\Program Files\Java\Java3D\1.5.1\lib\ext\vecmath.jar" msc.ar.video.VideoTest
