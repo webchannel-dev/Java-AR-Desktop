@@ -1,0 +1,23 @@
+
+	
+How to bundle the jre in my application:
+
+I package my app as a zip file with the following folders inside:
+
+containerFolder
+|- jre
+      |-bin (in bin there is java.exe)
+      |-lib
+|- cfg (to save the user configuration, but it's not needed)
+|- bin (my application with the .exe and the .jar and all the other stuff)
+
+In the xml file of launch4j i configure the jre like this:
+
+<jre>
+    <path>../jre</path>
+    <opt>-DgvSIG.confDir=../cfg</opt>
+</jre>
+
+The trick here is that the path is not to the java.exe file. The path to the jre is relative to the position of the .exe and it should point to one folder before the java.exe file
+
+The jre folder i'm using is just a copy&paste from the jre folder installed on a windows system.
