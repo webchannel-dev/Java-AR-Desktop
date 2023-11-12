@@ -1,0 +1,18 @@
+repo_name: webchannel-dev/Java-AR-Desktop
+report_id: 05760d579d19069eaae49efb919b7864
+repo_type: Public
+timestamp: '2023-11-12T13:15:20+00:00'
+requested_by: AJ-7885
+provider: github
+branch: master
+detected_tools_count: 1
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
